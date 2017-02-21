@@ -430,7 +430,6 @@ ActiveRecord::Schema.define(version: 20161106133205) do
     t.datetime "opening_at"
     t.datetime "closing_at"
     t.integer  "corporate_information_page_type_id",          limit: 4
-    t.string   "need_ids",                                    limit: 255
     t.string   "primary_locale",                              limit: 255,   default: "en",    null: false
     t.boolean  "political",                                                 default: false
     t.string   "logo_url",                                    limit: 255
