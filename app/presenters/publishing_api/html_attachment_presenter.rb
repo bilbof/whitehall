@@ -16,7 +16,6 @@ module PublishingApi
     def content
       content = BaseItemPresenter.new(
         item,
-        need_ids: [],
         locale: locale,
       ).base_attributes
 

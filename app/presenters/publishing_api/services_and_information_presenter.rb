@@ -24,7 +24,6 @@ module PublishingApi
       content = BaseItemPresenter.new(
         organisation,
         title: "Services and information - #{organisation.name}",
-        need_ids: [],
       ).base_attributes
 
       content.merge!(

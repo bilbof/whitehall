@@ -13,10 +13,7 @@ module PublishingApi
     end
 
     def content
-      content = BaseItemPresenter.new(
-        item,
-        need_ids: [],
-      ).base_attributes
+      content = BaseItemPresenter.new(item).base_attributes
 
       content.merge!(
         description: item.summary,

@@ -17,7 +17,6 @@ module PublishingApi
       content = BaseItemPresenter.new(
         item,
         title: item.name,
-        need_ids: [],
       ).base_attributes
 
       content.merge!(
