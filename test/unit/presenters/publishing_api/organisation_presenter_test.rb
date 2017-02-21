@@ -28,7 +28,6 @@ class PublishingApi::OrganisationPresenterTest < ActionView::TestCase
       public_updated_at: organisation.updated_at,
       routes: [{ path: public_path, type: "exact" }],
       redirects: [],
-      need_ids: [],
       details: {
         brand: nil,
         logo: {

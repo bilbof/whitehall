@@ -21,7 +21,6 @@ class PublishingApi::WorldLocationPresenterTest < ActiveSupport::TestCase
       public_updated_at: world_location.updated_at,
       routes: [{ path: public_path, type: "exact" }],
       redirects: [],
-      need_ids: [],
       details: {},
       analytics_identifier: "WL123",
     }
