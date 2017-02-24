@@ -20,21 +20,11 @@
   This publication is available <a href="www.gov.uk/government/publications">www.gov.uk/government/publications</a>
 </p>
 <p>
-  Any enquiries regarding this publication should be sent to us at:
+  Any enquiries regarding this publication should be sent to us at:<br/>
 </p>
+<%= simple_format(@html_attachment.meta_data_contact_address) %>
 <p>
-  Department for Business, Innovation and Skills<br/>
-  1 Victoria Street<br/>
-  London SW1H 0ET<br/>
-  Tel: 020 7215 5000<br/>
-  Email: <a href="mailto:enquiries@bis.gsi.gov.uk">enquiries@bis.gsi.gov.uk</a>
-</p>
-<p>
-  Print ISBN: 9781474127776<br/>
-  Web   ISBN: 9781474127783
-</p>
-<p>
-  ID 28011601  53927  02/16
+  Web ISBN: <%= @html_attachment.isbn %>
 </p>
 <p>
   Printed on paper containing 75% recycled fibre content minimum
